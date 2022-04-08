@@ -1,0 +1,118 @@
+﻿@{
+    ViewData["Title"] = "О компании";
+}
+<style>
+    .mainfoto img {
+    display: block;
+    width: 100%;
+    height: 75%;
+}
+</style>
+
+<main id="b_mainContent" role="main">
+    <div class="container b_container-mainContent">
+        <div class="row">
+            <div class="col-xs-24 hidden-print hidden-xs">
+                <ul class="b_breadcrumb breadcrumb">
+                    <li>
+                        <a asp-area="" asp-controller="Home" asp-action="Index">Главная</a>
+                    </li>
+                    <li class="b_active">О компании</li>
+                </ul>
+            </div>
+            <div class="col-md-24 col-xs-24">
+                <div class="b_content b_content-mainContent">
+                    <div class="row b_row-content">
+                        <div class="col-xs-24">
+                            <div class="mainfoto">
+                                <img src="~/images/about/about-main-foto.jpg" class="mainlogo" />
+                            </div>
+
+                            <div class="csc-default b_is-firstElement" id="c56628">
+                                <h1>О компании</h1>
+                                <p>
+                                    TK Elevator - глобальная группа компаний, занимающихся системами пассажирских перевозок. TK Elevator, обслуживающая клиентов в более чем 100 странах с более чем 50 000 сотрудниками, в 2018/2019 финансовом году достигла объема продаж около 8 миллиардов евро. Более 1000 точек по всему миру обеспечивают разветвленную сеть, гарантирующую близость к клиентам. После того, как всего за 40 лет TK Elevator зарекомендовал себя в качестве одной из ведущих лифтовых компаний в мире, в августе 2020 года она стала независимой организацией. Важнейшим направлением деятельности компании является сервисный бизнес, около 1,4 миллиона единиц оборудования находятся на техническом обслуживании. Ассортимент продукции охватывает лифты для жилых и коммерческих зданий, а также передовые решения для самых современных небоскребов, такие как One World Trade Center в Нью-Йорке. Кроме того, в его состав входят эскалаторы и движущиеся дорожки, пассажирские трапы, лестничные и платформенные подъемники, а также индивидуальные сервисные решения, такие как MAX, первое в отрасли решение для профилактического обслуживания, охватывающее широкий спектр городской мобильности.
+                                </p>
+                                <p>
+                                    Крафт Ауфцюге Украина ООО является официальным дистрибьютором TK Elevator
+                                    в Украине.
+                                </p>
+                                <p>
+                                    Сотрудники Крафт Ауфцюге Украина имеют многолетний опыт работы в структуре TK Elevator.
+                                    Клиенты по всему миру обращаются в TK Elevator для проектирования, производства, монтажа,
+                                    модернизации и технического обслуживания умных и инновационных систем транспортировки,
+                                    устанавливаемых в различных типах зданий.
+                                </p>
+                                <br>
+                                <a onclick="getDistribLetter()">Относительно представительства TK Elevator в Украине</a>
+                                <div id="dist-file" style="display:none;">
+                                    <object data="~/files/service/Distributor_Letter_Ukraine.pdf#toolbar=0" type="application/pdf" width="100%" height="600px">
+                                        <p><a href="~/files/service/Distributor_Letter_Ukraine.pdf#toolbar=0" target="_blank">Просмотреть</a></p>
+                                    </object>
+                                </div>
+                                <h3 class="b_blue">Мы предлагаем:</h3>
+                                <p>- Пассажирские и грузовые лифты</p>
+                                <p>- Эскалаторы и пассажирские конвейеры</p>
+                                <p>- Пассажирские телескопические трапы</p>
+                                <p>- Подъемники для людей с ограниченными физическими возможностями</p>
+                                <p>- Решения по техническому обслуживанию и модернизации, ориентированные на потребности клиента</p>
+                                <p>- Инновационное уникальное оборудование: ACCEL, MULTI, TWIN.</p>
+                                <br />
+                                <p>
+                                    Крафт Ауфцюге Украина осуществляет техническое обслуживание в полном соблюдении требований
+                                    текущего законодательства Украины и согласно международным стандартам EN 13015.
+                                    Сервисные Центры Крафт Ауфцюге Украина расположены в Киеве, Днепропетровске и Одессе.
+                                </p>
+                            </div>
+                            <br/>
+                            <div class="csc-default" id="c56744">
+                                <div class="row imageTeaserGroup">
+                                    <div class="col-xs-24 col-sm-12 col-md-8">
+                                        <div class="imageTeaser">
+                                            <a href="#">
+                                                <img alt="Оборудование" src="~/images/about/about-equipment.jpg" title="Оборудование">
+                                                <div class="imageTeaserTitle">
+                                                    Оборудование
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-24 col-sm-12 col-md-8">
+                                        <div class="imageTeaser">
+                                            <a href="#">
+                                                <img alt="Модернизация"  src="~/images/mainpage/modernisation2.jpg" title="Модернизация">
+                                                <div class="imageTeaserTitle">
+                                                    Модернизация
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-24 col-sm-12 col-md-8">
+                                        <div class="imageTeaser">
+                                            <a asp-area="" asp-controller="Home" asp-action="Service">
+                                                <img alt="Сервис" src="~/images/mainpage/service_new.jpg" title="Сервис">
+                                                <div class="imageTeaserTitle">
+                                                    Сервис
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    function getDistribLetter() {
+        var isNone = $('#dist-file').css('display') === 'none';
+        if (isNone)
+            $('#dist-file').css('display', 'block');
+        else
+            $('#dist-file').css('display', 'none');
+        }  
+</script>
