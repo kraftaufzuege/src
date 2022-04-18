@@ -1,5 +1,4 @@
-﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -14,7 +13,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" rel="stylesheet" type="text/css">
         <script src="~/js/default.js" asp-append-version="true"></script>
         <script src="~/js/p.js" asp-append-version="true"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js" asp-append-version="true"></script>        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js" asp-append-version="true"></script>
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="~/css/default.css" asp-append-version="true" />
@@ -50,276 +49,37 @@
                 <div class="menu-toggle"></div>
             </div>
         </div>
-        <div class="hidden-print" id="mainNavRow">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-18 col-xs-24 bJS_wrap-mainNav">
-                        <div class="bJS_container-mainNav b_container-mainNav">
-                            <script type="text/javascript">
-                                var mainMenuData = [{ "uid": "1855", "title": "Ukraine", "url": "/" }];
-                            </script>
-                        </div>
-                    </div>
-                    <ul id="mainNav">
-                        <li class="state-ifsub uid-1944 point-1 first">
-                            <a href="#">@localizer["OurServicesAndProducts"]</a>
-                            <ul>
-                                <li class="back">
-                                    <a href="index.html#">Назад</a>
-                                </li>
-                                <li class="overview">
-                                    <a href="#">Наши услуги и продукция</a>
-                                </li>
-                                <li class="state-ifsub uid-2008 point-1 first">
-                                    <a href="#">Оборудование</a>
-                                    <ul>
-                                        <li class="back">
-                                            <a href="index.html#">Назад</a>
-                                        </li>
-                                        <li class="overview">
-                                            <a href="#">Оборудование</a>
-                                        </li>
-                                        <li class="state-ifsub uid-2027 point-1 first">
-                                            <a href="../../../index.html">Лифты</a>
-                                            <ul>
-                                                <li class="back">
-                                                    <a href="index.html#">Назад</a>
-                                                </li>
-                                                <li class="overview">
-                                                    <a href="#">Лифты</a>
-                                                </li>
-                                                <li class="state-ifsub uid-2027 point-1 first">
-                                                    <a href="#">Пассажирские лифты</a>
-                                                    <ul>
-                                                        <li class="back">
-                                                            <a href="index.html#">Назад</a>
-                                                        </li>
-                                                        <li class="overview">
-                                                            <a href="#">Пассажирские лифты</a>
-                                                        </li>
-                                                        <li class="state-no uid-100 point-1 first">
-                                                            <a asp-area="" asp-controller="Home" asp-action="Synergy100">Synergy® 100</a>
-                                                        </li>
-                                                        <li class="state-no uid-200 point-2 middle">
-                                                            <a asp-area="" asp-controller="Home" asp-action="Synergy200">Synergy® 200</a>
-                                                        </li>
-                                                        <li class="state-no uid-200 point-2 middle">
-                                                            <a asp-area="" asp-controller="Home" asp-action="Synergy300">Synergy® 300</a>
-                                                        </li>
-                                                        <li class="state-no uid-200 point-2 middle">
-                                                            <a asp-area="" asp-controller="Home" asp-action="Evolution300">Evolution® 300</a>
-                                                        </li>
-                                                        <li class="state-no uid-200 point-2 middle">
-                                                            <a asp-area="" asp-controller="Home" asp-action="Enta200">Enta® 200</a>
-                                                        </li>
-                                                        <li class="state-no uid-200 point-2 middle">
-                                                            <a asp-area="" asp-controller="Home" asp-action="Sonic">Sonic®</a>
-                                                        </li>
-                                                        <li class="state-no uid-200 point-2 middle">
-                                                            <a asp-area="" asp-controller="Home" asp-action="Twin">TWIN®</a>
-                                                        </li>
-                                                        <li class="state-no uid-200 point-2 middle">
-                                                            <p>Домашние лифты:</p>
-                                                        </li>
-                                                        <li class="state-no uid-200 point-2 middle">
-                                                            <a asp-area="" asp-controller="Home" asp-action="H100">H100</a>
-                                                        </li>
-                                                        <li class="state-no uid-200 point-2 middle">
-                                                            <a asp-area="" asp-controller="Home" asp-action="H300">H300</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="state-ifsub uid-2027 point-1 middle">
-                                            <a href="#">Эскалаторы</a>
-                                            <ul>
-                                                <li class="back">
-                                                    <a href="index.html#">Назад</a>
-                                                </li>
-                                                <li class="overview">
-                                                    <a href="#">Эскалаторы</a>
-                                                </li>
-                                                <li class="state-no uid-100 point-1 first">
-                                                    <a asp-area="" asp-controller="Home" asp-action="Velino">Velino</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="state-no uid-1982 point-2 middle">
-                                    <a asp-area="" asp-controller="Home" asp-action="Service">Сервис</a>
-                                </li>
-                                <li class="state-no uid-1945 point-3 last">
-                                    <a href="#">Модернизация</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="state-no uid-1880 point-2 middle">
-                            <a asp-area="" asp-controller="Home" asp-action="Planning">Планирование</a>
-                        </li>
-                        <li class="state-no uid-1896 point-4 last">
-                            <a asp-area="" asp-controller="Home" asp-action="About">О компании</a>
-                        </li>
-                        <li class="state-no uid-1896 point-4 last">
-                            <a asp-area="" asp-controller="Home" asp-action="Contact">Контакты</a>
-                        </li>
-                        <li class="state-no uid-1896 point-4 last">
-                            <a asp-area="" asp-controller="Home" asp-action="Rebranding">Новости</a>
-                        </li>
-                    </ul>
-                    @*<div class="col-sm-8 visible-sm b_tabletNav">
-                        <div class="b_tabletNav-btn bJS_tabletNav-trigger">
-                            <span class="b_tabletNav-title"><span class="b_menuIcon-wrapper"><span class="b_menuIcon-block"></span><span class="b_menuIcon-block"></span><span class="b_menuIcon-block"></span></span>Willkommen</span>
-                        </div>
-                        <div class="b_content b_content-subMenu hidden bJS_tabletNav-detail">
-                            <ul class="subNav">
-                                <li>
-                                    <a href="#">Unsere Leistungen und Produkte</a>
-                                </li>
-                                <li>
-                                    <a href="#">Unternehmen</a>
-                                </li>
-                                <li>
-                                    <a href="#">Toolbox</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>*@
-                </div>
-            </div>
-        </div>
+        <partial name="Menu" />
         @*<div id="searchWrap">
-            <div class="b_headerSearch container">
-                <a class="close"></a>
-                <div class="tx-kesearch-pi1">
-                    <form action="https://www.thyssenkrupp-aufzuege.at/suche/" class="static b_searchForm form-inline" id="searchform" method="get" name="searchform" role="form">*@
-                        <!--<input type="hidden" name="id" value="1873" />-->
-                        @*<div class="input-group">
-                            <div class="input-group-addon">
-                                <i class="b_icon-search"></i>
-                            </div><input class="form-control b_inputTransparent b_noFocus" id="ke_search_sword" name="sword" placeholder="Suchbegriff eingeben" type="text" value="">
-                        </div>
-                        <button class="submitbutt" type="submit"><i class="b_icon-arrowTeaser"></i></button>
-                    </form>
-                </div>
-            </div>*@
+        <div class="b_headerSearch container">
+            <a class="close"></a>
+            <div class="tx-kesearch-pi1">
+                <form action="https://www.thyssenkrupp-aufzuege.at/suche/" class="static b_searchForm form-inline" id="searchform" method="get" name="searchform" role="form">*@
+        <!--<input type="hidden" name="id" value="1873" />-->
+        @*<div class="input-group">
+                        <div class="input-group-addon">
+                            <i class="b_icon-search"></i>
+                        </div><input class="form-control b_inputTransparent b_noFocus" id="ke_search_sword" name="sword" placeholder="Suchbegriff eingeben" type="text" value="">
+                    </div>
+                    <button class="submitbutt" type="submit"><i class="b_icon-arrowTeaser"></i></button>
+                </form>
+            </div>
+        </div>*@
         @*</div>*@
     </header>
 
     @*<partial name="_CookieConsentPartial" />*@
 
     @*<div class="container body-content">*@
-
     @RenderBody()
     @RenderSection("Styles", false)
     <hr />
-    <footer class="b_footer" id="b_footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-24 col-sm-12 col-md-18">
-                    <div class="headline">
-                        @*<p class="roof-line">Kraft Aufzuege Ukraine</p>*@
-                        <p class="brand-name">Kraft Aufzuege Ukraine</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-24 col-sm-24 col-md-8 col-lg-6 hidden-print">
-                            <ul id="footerLinkList01">
-                                <li>
-                                    <a href="#">Оборудование</a>
-                                </li>
-                                <li>
-                                    <a asp-area="" asp-controller="Home" asp-action="Service">Сервис</a>
-                                </li>
-                                <li>
-                                    <a href="#">Модернизация</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-xs-24 col-sm-24 col-md-8 col-lg-6 hidden-print">
-                            <ul id="footerLinkList02">
-                                <li>
-                                    <a asp-area="" asp-controller="Home" asp-action="About">О компании</a>
-                                </li>
-                                <li>
-                                    <a asp-area="" asp-controller="Home" asp-action="Rebranding">Новости</a>
-                                </li>
-                                <li>
-                                    <a asp-area="" asp-controller="Home" asp-action="Contact">Контакты</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-24 col-sm-12 col-md-6">
-                    <div id="footerRightColContent">
-                        @*<div id="footerTkAg">
-                            thyssenkrupp
-                        </div>*@
-                        @*<div id="footerCorporateLink">
-                            <a href="#" target="_blank">Elevator Technology global website</a>
-                        </div>*@
-                        <div id="footerSocialLinks">
-                            <a class="engineered" href="#" target="_blank">#e</a>
-                            <a class="facebook" href="https://www.facebook.com/kraftaufzuege" target="_blank">Facebook</a>
-                            <a class="twitter" href="#" target="_blank">Twitter</a>
-                            <a class="youtube" href="#" target="_blank">Youtube</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="lowerFooterRow">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-24 col-sm-9">
-                        <div id="footerCopyright">
-                            Все права защищены 2021 © TK Elevator
-                        </div>
-                    </div>
-                    @*<div class="col-xs-24 col-sm-15 hidden-print">
-                        <ul id="footerMetaNav">
-                            <li>
-                                <a href="#">Торговый знак</a>
-                            </li>
-                            <li>
-                                <a href="#">Окружающая среда</a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">Стандарт качества</a>
-                            </li>
-                            <li>
-                                <a href="#">Условия</a>
-                            </li>
-                            <li id="footerSharingLinks">
-                                <a class="shareLink" href="#">Поделиться</a>
-
-                                <ul class="icons icon-share">
-                                    <li>
-                                        <a class="twitter icon-twitter" href="https://twitter.com/home?status=http%3A%2F%2Fwww.thyssenkrupp-aufzuege.at%2F" target="_blank">Twitter</a>
-                                    </li>
-                                    <li>
-                                        <a class="xing icon-xing" href="https://www.xing.com/app/user?op=share;url=http%3A%2F%2Fwww.thyssenkrupp-aufzuege.at%2F" target="_blank">Xing</a>
-                                    </li>
-                                    <li>
-                                        <a class="facebook icon-facebook" href="" target="_blank">Facebook</a>
-                                    </li>
-                                    <li>
-                                        <a class="gplus icon-google" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.thyssenkrupp-aufzuege.at%2F" target="_blank">Gplus</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>*@
-                </div>
-            </div>
-        </div>
-    </footer>
+    <partial name="Footer" />
     @*</div>*@
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
-            @*<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>*@
+        @*<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>*@
 
     </environment>
     <environment exclude="Development">

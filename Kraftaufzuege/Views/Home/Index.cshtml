@@ -1,7 +1,7 @@
 ﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
 
 @{
-    ViewData["Title"] = "Главная";
+    ViewData["Title"] = localizer["MainTitle"];
 }
 
 <main id="b_mainContent-startpage" role="main">
@@ -12,10 +12,10 @@
                     <a asp-area="" asp-controller="Home" asp-action="Synergy200">
                         <div class="b_startpage-imageGallery-desc">
                             <div class="b_imageTitle">
-                                <h1 class="b_large">@localizer["SynergyElevatorsNewFamily"]</h1>
+                                <h1 class="b_large">@localizer["SynergyElevatorsHeader"]</h1>
                             </div>
                             <div class="b_imageSubline">
-                                <p>Узнайте больше о новом поколении пассажирских лифтов Synergy</p>
+                                <p>@localizer["SynergyElevatorsMore"]</p>
                             </div>
                         </div>
                     </a>
@@ -24,10 +24,10 @@
                     <a asp-area="" asp-controller="Home" asp-action="Velino">
                         <div class="b_startpage-imageGallery-desc">
                             <div class="b_imageTitle">
-                                <h1 class="b_large">Velino - эскалатор адаптируемый под ваш стиль и  требования</h1>
+                                <h1 class="b_large">@localizer["VelinoHeader"]</h1>
                             </div>
                             <div class="b_imageSubline">
-                                <p>Узнать больше о эскалаторах Velino</p>
+                                <p>@localizer["VelinoMoreInfo"]</p>
                             </div>
                         </div>
                     </a>
@@ -36,15 +36,15 @@
                     <a asp-area="" asp-controller="Home" asp-action="H300">
                         <div class="b_startpage-imageGallery-desc">
                             <div class="b_imageTitle">
-                                <h1 class="b_large">Доступность: Свобода самостоятельного передвижения</h1>
+                                <h1 class="b_large">@localizer["AvailabilityHeader"]</h1>
                             </div>
                             <div class="b_imageSubline">
-                                <p>Узнать больше об оборудовании для людей с ограниченными возможностями</p>
+                                <p>@localizer["AvailabilityMore"]</p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="b_startpage-imageGallery-item" style="background-image:url('@Url.Content("~/images/mainpage/newgenerationSynergy.jpg")')">
+                @*<div class="b_startpage-imageGallery-item" style="background-image:url('@Url.Content("~/images/mainpage/newgenerationSynergy.jpg")')">
                     <a href="#">
                         <div class="b_startpage-imageGallery-desc">
                             <div class="b_imageTitle">
@@ -55,8 +55,8 @@
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="b_startpage-imageGallery-item" style="background-image:url('@Url.Content("~/images/mainpage/newgenerationSynergy.jpg")')">
+                </div>*@
+                @*<div class="b_startpage-imageGallery-item" style="background-image:url('@Url.Content("~/images/mainpage/newgenerationSynergy.jpg")')">
                     <a href="#">
                         <div class="b_startpage-imageGallery-desc">
                             <div class="b_imageTitle">
@@ -67,7 +67,7 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </div>*@
             </div>
         </div>
         <div class="csc-default" id="c7469">
@@ -78,8 +78,8 @@
                             <a href="#">
                                 <img alt="Оборудование" height="1190" src="~/images/mainpage/newinstallation.jpg" title="Оборудование" width="1870">
                                 <div class="teaserImageTitle">
-                                    <span class="headline">Оборудование</span>
-                                    <span class="subline">Пассажирские и грузовые лифты, эскалаторы, травалаторы</span>
+                                    <span class="headline">@localizer["EquipmentHeader"]</span>
+                                    <span class="subline">@localizer["EquipmentInfo"]</span>
                                 </div>
                             </a>
                         </div>
@@ -91,7 +91,7 @@
                                     <a asp-area="" asp-controller="Home" asp-action="Service">
                                         <img alt="Сервис" height="782" src="~/images/mainpage/service_new.jpg" title="Сервис" width="920">
                                         <div class="teaserImageTitle">
-                                            <span class="headline">Сервис</span>
+                                            <span class="headline">@localizer["Service"]</span>
                                         </div>
                                     </a>
                                 </div>
@@ -101,7 +101,7 @@
                                     <a href="#">
                                         <img alt="Модернизация" height="782" src="~/images/mainpage/modernisation2.jpg" title="Модернизация" width="920">
                                         <div class="teaserImageTitle">
-                                            <span class="headline">Модернизация</span>
+                                            <span class="headline">@localizer["Modernization"]</span>
                                         </div>
                                     </a>
                                 </div>
@@ -115,8 +115,7 @@
                                     <a asp-area="" asp-controller="Home" asp-action="Planning">
                                         <img alt="Инструменты для проектирования" height="782" src="~/images/mainpage/perspective.jpg" title="Инструменты для проектирования" width="920">
                                         <div class="teaserImageTitle">
-                                            <span class="headline">Инструменты для</span>
-                                            <span class="headline">проектирования</span>
+                                            <span class="headline">@localizer["DesignTools"]</span>
                                         </div>
                                     </a>
                                 </div>
@@ -126,7 +125,7 @@
                                     <a asp-area="" asp-controller="Home" asp-action="Contact">
                                         <img alt="Наши контакты" height="782" src="~/images/mainpage/ukrainemap.jpg" title="Наши контакты" width="920">
                                         <div class="teaserImageTitle">
-                                            <span class="headline">Наши контакты</span>
+                                            <span class="headline">@localizer["OursContacts"]</span>
                                         </div>
                                     </a>
                                 </div>
@@ -138,7 +137,7 @@
                             <a asp-area="" asp-controller="Home" asp-action="About">
                                 <img alt="О компании" height="1190" src="~/images/mainpage/aboutcompany.jpg" title="О компании" width="1870">
                                 <div class="teaserImageTitle">
-                                    <span class="headline">О компании</span>
+                                    <span class="headline">@localizer["AboutUs"]</span>
                                 </div>
                             </a>
                         </div>

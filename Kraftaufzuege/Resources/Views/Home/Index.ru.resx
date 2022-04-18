@@ -117,7 +117,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="OurServicesAndProducts" xml:space="preserve">
-    <value>Наші послуги та продукція</value>
+  <data name="AboutCompany" xml:space="preserve">
+    <value>О компании</value>
+  </data>
+  <data name="AvailabilityHeader" xml:space="preserve">
+    <value>Доступность: Свобода самостоятельного передвижения</value>
+  </data>
+  <data name="AvailabilityMore" xml:space="preserve">
+    <value>Узнать больше об оборудовании для людей с ограниченными возможностями</value>
+  </data>
+  <data name="DesignTools" xml:space="preserve">
+    <value>Инструменты для проектирования</value>
+  </data>
+  <data name="EquipmentHeader" xml:space="preserve">
+    <value>Оборудование</value>
+  </data>
+  <data name="EquipmentInfo" xml:space="preserve">
+    <value>Пассажирские и грузовые лифты, эскалаторы, травалаторы</value>
+  </data>
+  <data name="MainTitle" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="Modernization" xml:space="preserve">
+    <value>Модернизация</value>
+  </data>
+  <data name="OursContacts" xml:space="preserve">
+    <value>Наши контакты</value>
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Сервис</value>
+  </data>
+  <data name="SynergyElevatorsHeader" xml:space="preserve">
+    <value>Новое семейство лифтов Synergy</value>
+  </data>
+  <data name="SynergyElevatorsMore" xml:space="preserve">
+    <value>Узнайте больше о новом поколении пассажирских лифтов Synergy</value>
+  </data>
+  <data name="VelinoHeader" xml:space="preserve">
+    <value>Velino - эскалатор адаптируемый под ваш стиль и  требования</value>
+  </data>
+  <data name="VelinoMoreInfo" xml:space="preserve">
+    <value>Узнать больше о эскалаторах Velino</value>
   </data>
 </root>

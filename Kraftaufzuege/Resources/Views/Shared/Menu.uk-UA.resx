@@ -120,49 +120,16 @@
   <data name="AboutUs" xml:space="preserve">
     <value>Про нас</value>
   </data>
-  <data name="AvailabilityHeader" xml:space="preserve">
-    <value>Доступність: Свобода самостійного пересування</value>
-  </data>
-  <data name="AvailabilityMore" xml:space="preserve">
-    <value>Дізнатися більше про обладнання для людей з обмеженими можливостями</value>
-  </data>
   <data name="Contacts" xml:space="preserve">
     <value>Контакти</value>
-  </data>
-  <data name="DesignTools" xml:space="preserve">
-    <value>Інструменти для проектування</value>
-  </data>
-  <data name="EquipmentHeader" xml:space="preserve">
-    <value>Обладнання</value>
-  </data>
-  <data name="EquipmentInfo" xml:space="preserve">
-    <value>Пасажирські та вантажні ліфти, ескалатори, травалатори</value>
-  </data>
-  <data name="MainTitle" xml:space="preserve">
-    <value>Головна</value>
-  </data>
-  <data name="Modernization" xml:space="preserve">
-    <value>Модернізація</value>
   </data>
   <data name="News" xml:space="preserve">
     <value>Новини</value>
   </data>
-  <data name="OursContacts" xml:space="preserve">
-    <value>Наші контакти</value>
+  <data name="OurServicesAndProducts" xml:space="preserve">
+    <value>Наші послуги та продукція</value>
   </data>
-  <data name="Service" xml:space="preserve">
-    <value>Сервіс</value>
-  </data>
-  <data name="SynergyElevatorsHeader" xml:space="preserve">
-    <value>Нове сімейство ліфтів Synergy</value>
-  </data>
-  <data name="SynergyElevatorsMore" xml:space="preserve">
-    <value>Дізнайтесь більше про нове покоління пасажирських ліфтів Synergy</value>
-  </data>
-  <data name="VelinoHeader" xml:space="preserve">
-    <value>Velino - ескалатор адаптований під ваш стиль та вимоги</value>
-  </data>
-  <data name="VelinoMoreInfo" xml:space="preserve">
-    <value>Дізнатись більше про ескалатори Velino</value>
+  <data name="Planning" xml:space="preserve">
+    <value>Планування</value>
   </data>
 </root>

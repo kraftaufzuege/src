@@ -117,7 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="SynergyElevatorsNewFamily" xml:space="preserve">
-    <value>Нове сімейство</value>
+  <data name="AboutUs" xml:space="preserve">
+    <value>О компании</value>
+  </data>
+  <data name="AllRightsReserved" xml:space="preserve">
+    <value>Все права защищены 2022 © TK Elevator</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="Equipment" xml:space="preserve">
+    <value>Оборудование</value>
+  </data>
+  <data name="Modernization" xml:space="preserve">
+    <value>Модернизация</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Новости</value>
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Сервис</value>
   </data>
 </root>

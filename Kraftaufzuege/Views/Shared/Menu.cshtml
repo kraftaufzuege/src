@@ -1,0 +1,142 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+<div class="hidden-print" id="mainNavRow">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-18 col-xs-24 bJS_wrap-mainNav">
+                <div class="bJS_container-mainNav b_container-mainNav">
+                    <script type="text/javascript">
+                        var mainMenuData = [{ "uid": "1855", "title": "Ukraine", "url": "/" }];
+                    </script>
+                </div>
+            </div>
+            <ul id="mainNav">
+                <li class="state-ifsub uid-1944 point-1 first">
+                    <a href="#">@Localizer["OurServicesAndProducts"]</a>
+                    <ul>
+                        <li class="back">
+                            <a href="index.html#">Назад</a>
+                        </li>
+                        <li class="overview">
+                            <a href="#">@Localizer["OurServicesAndProducts"]</a>
+                        </li>
+                        <li class="state-ifsub uid-2008 point-1 first">
+                            <a href="#">Оборудование</a>
+                            <ul>
+                                <li class="back">
+                                    <a href="index.html#">Назад</a>
+                                </li>
+                                <li class="overview">
+                                    <a href="#">Оборудование</a>
+                                </li>
+                                <li class="state-ifsub uid-2027 point-1 first">
+                                    <a href="../../../index.html">Лифты</a>
+                                    <ul>
+                                        <li class="back">
+                                            <a href="index.html#">Назад</a>
+                                        </li>
+                                        <li class="overview">
+                                            <a href="#">Лифты</a>
+                                        </li>
+                                        <li class="state-ifsub uid-2027 point-1 first">
+                                            <a href="#">Пассажирские лифты</a>
+                                            <ul>
+                                                <li class="back">
+                                                    <a href="index.html#">Назад</a>
+                                                </li>
+                                                <li class="overview">
+                                                    <a href="#">Пассажирские лифты</a>
+                                                </li>
+                                                <li class="state-no uid-100 point-1 first">
+                                                    <a asp-area="" asp-controller="Home" asp-action="Synergy100">Synergy® 100</a>
+                                                </li>
+                                                <li class="state-no uid-200 point-2 middle">
+                                                    <a asp-area="" asp-controller="Home" asp-action="Synergy200">Synergy® 200</a>
+                                                </li>
+                                                <li class="state-no uid-200 point-2 middle">
+                                                    <a asp-area="" asp-controller="Home" asp-action="Synergy300">Synergy® 300</a>
+                                                </li>
+                                                <li class="state-no uid-200 point-2 middle">
+                                                    <a asp-area="" asp-controller="Home" asp-action="Evolution300">Evolution® 300</a>
+                                                </li>
+                                                <li class="state-no uid-200 point-2 middle">
+                                                    <a asp-area="" asp-controller="Home" asp-action="Enta200">Enta® 200</a>
+                                                </li>
+                                                <li class="state-no uid-200 point-2 middle">
+                                                    <a asp-area="" asp-controller="Home" asp-action="Sonic">Sonic®</a>
+                                                </li>
+                                                <li class="state-no uid-200 point-2 middle">
+                                                    <a asp-area="" asp-controller="Home" asp-action="Twin">TWIN®</a>
+                                                </li>
+                                                <li class="state-no uid-200 point-2 middle">
+                                                    <p>Домашние лифты:</p>
+                                                </li>
+                                                <li class="state-no uid-200 point-2 middle">
+                                                    <a asp-area="" asp-controller="Home" asp-action="H100">H100</a>
+                                                </li>
+                                                <li class="state-no uid-200 point-2 middle">
+                                                    <a asp-area="" asp-controller="Home" asp-action="H300">H300</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="state-ifsub uid-2027 point-1 middle">
+                                    <a href="#">Эскалаторы</a>
+                                    <ul>
+                                        <li class="back">
+                                            <a href="index.html#">Назад</a>
+                                        </li>
+                                        <li class="overview">
+                                            <a href="#">Эскалаторы</a>
+                                        </li>
+                                        <li class="state-no uid-100 point-1 first">
+                                            <a asp-area="" asp-controller="Home" asp-action="Velino">Velino</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="state-no uid-1982 point-2 middle">
+                            <a asp-area="" asp-controller="Home" asp-action="Service">Сервис</a>
+                        </li>
+                        <li class="state-no uid-1945 point-3 last">
+                            <a href="#">Модернизация</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="state-no uid-1880 point-2 middle">
+                    <a asp-area="" asp-controller="Home" asp-action="Planning">@Localizer["Planning"]</a>
+                </li>
+                <li class="state-no uid-1896 point-4 last">
+                    <a asp-area="" asp-controller="Home" asp-action="About">@Localizer["AboutUs"]</a>
+                </li>
+                <li class="state-no uid-1896 point-4 last">
+                    <a asp-area="" asp-controller="Home" asp-action="Contact">@Localizer["Contacts"]</a>
+                </li>
+                <li class="state-no uid-1896 point-4 last">
+                    <a asp-area="" asp-controller="Home" asp-action="Rebranding">@Localizer["News"]</a>
+                </li>
+            </ul>
+            @*<div class="col-sm-8 visible-sm b_tabletNav">
+                    <div class="b_tabletNav-btn bJS_tabletNav-trigger">
+                        <span class="b_tabletNav-title"><span class="b_menuIcon-wrapper"><span class="b_menuIcon-block"></span><span class="b_menuIcon-block"></span><span class="b_menuIcon-block"></span></span>Willkommen</span>
+                    </div>
+                    <div class="b_content b_content-subMenu hidden bJS_tabletNav-detail">
+                        <ul class="subNav">
+                            <li>
+                                <a href="#">Unsere Leistungen und Produkte</a>
+                            </li>
+                            <li>
+                                <a href="#">Unternehmen</a>
+                            </li>
+                            <li>
+                                <a href="#">Toolbox</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>*@
+        </div>
+    </div>
+</div>
